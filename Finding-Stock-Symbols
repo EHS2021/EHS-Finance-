@@ -1,3 +1,6 @@
 import pandas as pd
 
-nasdaq = pd.read_csv('Nasdaq-listed.csv')
+nasdaq = pd.read_csv('nasdaq-listed.csv')
+
+print(nasdaq.head(10))
+
